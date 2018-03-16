@@ -5,3 +5,5 @@ layout: default
 ---
 
 ![20180201_184110510_iOS.jpg](/uploads/20180201_184110510_iOS.jpg)
+   
+Kemedia Development Blog
