@@ -1,16 +1,16 @@
 ---
+title: Add your index.html
+permalink: "/electron/create-an-app/add-your-index-html/"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-electron-app/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Add your index.html
-permalink: /electron/create-an-app/add-your-index-html/
-next-page: /electron/create-an-app/add-css/
+next-page: "/electron/create-an-app/add-css/"
 facilitator: false
 sidebar:
-  nav: "create-an-app-in-electron"
-main-content: |
+  nav: create-an-app-in-electron
+main-content: |2
 
   For our app, we are going to build a [memory game](https://en.wikipedia.org/wiki/Concentration_(game)). You can find the code for the web application [here on Codepen](https://codepen.io/githubteacher/pen/brRvVz).
 
@@ -28,8 +28,7 @@ main-content: |
   See [this commit](https://github.com/githubschool/on-demand-electron-app/commit/ef39ab6714fe755f646f2b855bdc83b4830b0921) as an example of what to take away and what to add in this step.
 
   > If you don't understand everything in the `.html` file, that's okay. Remember the resources listed [at the beginning of the course](./#software-skills), and know you can always go back and learn more!
-
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

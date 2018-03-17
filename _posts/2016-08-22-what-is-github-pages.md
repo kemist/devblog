@@ -1,5 +1,9 @@
 ---
 title: What is GitHub Pages?
+date: 2016-08-22 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: https://youtu.be/2MsN8gpT6jY
 image_filename: what-is-github-pages.png
 ---

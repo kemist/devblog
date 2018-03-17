@@ -1,14 +1,14 @@
 ---
+title: GitHub Extension for Visual Studio
+permalink: "/merge-conflicts/ide-vs-ext/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: GitHub Extension for Visual Studio
-permalink: /merge-conflicts/ide-vs-ext/
-next-page: /merge-conflicts/ide-intro/
+next-page: "/merge-conflicts/ide-intro/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   The [GitHub Extension for Visual Studio](https://visualstudio.github.com/) editor enables you to identify the difference between the two files and automatically fix the merge conflicts by selecting a specific branch.
 
@@ -48,3 +48,4 @@ main-content: |
 
   ![octocat wearing a red polo](https://octodex.github.com/images/red-polo.png)
 ---
+

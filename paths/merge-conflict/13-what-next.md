@@ -1,14 +1,14 @@
 ---
+title: What Next?
+permalink: "/merge-conflicts/what-next/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: What Next?
-permalink: /merge-conflicts/what-next/
-next-page: /merge-conflicts/ide-intro/
+next-page: "/merge-conflicts/ide-intro/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   With the the merge conflicts resolved you know have a fully functional GitHub Pages based resume.
 
@@ -35,6 +35,5 @@ main-content: |
   1. Drag and drop your image and commit your change by clicking **Commit changes**.
   1. Open the `/_layouts/resume.html` file and edit line 16. Replacing `images/bob-avatar.jpg` with `images/YourFileName`.
   1. Commit the change and create a pull request. After creating your pull request **merge** and **delete the branch**.
-
-
 ---
+

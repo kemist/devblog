@@ -1,4 +1,6 @@
 ---
+title: Trabajar en GitHub
+permalink: "/intro-to-github/es/trabajar-en-github"
 lang: es
 ref: intro-to-github-07
 layout: simple-class
@@ -6,16 +8,14 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Trabajar en GitHub
-permalink: /intro-to-github/es/trabajar-en-github
-next-page: /intro-to-github/es/crear-pull-request
+next-page: "/intro-to-github/es/crear-pull-request"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content:
   includes:
   - activity/intro-to-github-es/04-crear-archivo-en-github.md
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Añadir un nuevo archivo
 
@@ -41,5 +41,5 @@ tell-me-why: |
   ## Escoge tu branch (o rama)
 
   Luego, elige dónde quieres hacer el commit de tus cambios. Si estabas en tu branch cuando hiciste clic en el botón **Create new file**, GitHub realizará el commit directamente sobre ese branch. Pero, si olvidaste crear un branch nuevo, puedes hacerlo ahora.
-
 ---
+

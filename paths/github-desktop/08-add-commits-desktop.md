@@ -1,4 +1,6 @@
 ---
+title: Add Local Commits With GitHub Desktop
+permalink: "/github-desktop/add-commits-github-desktop"
 lang: en
 ref: gh-desktop-08
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Add Local Commits With GitHub Desktop
-permalink: /github-desktop/add-commits-github-desktop
-next-page: /github-desktop/pull-request-github-desktop
+next-page: "/github-desktop/pull-request-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
-main-content: |
+  nav: github-desktop-nav
+main-content: |2
 
   After you have finished making your changes, it is time to commit them.
 
@@ -25,8 +25,7 @@ main-content: |
 
   1. Type your commit message in the Summary field.
   1. You will notice that GitHub Desktop has already populated the commit button with the current branch. Simply click the button to commit your changes.
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Making great commits
 
@@ -36,3 +35,4 @@ tell-me-why: |
 
   When you assemble the changes you have made, you should try to create what we like to call an **atomic commit**. In other words, each commit you make should contain changes that belong together and represent a discrete unit of work.
 ---
+

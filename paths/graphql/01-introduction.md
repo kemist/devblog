@@ -1,36 +1,34 @@
 ---
+title: Introduction to GraphQL
+permalink: "/graphql/"
 layout: simple-class
 help: https://github.com/githubschool/graph-ql/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Introduction to GraphQL
-permalink: /graphql/
-next-page: /graphql/first-use
+next-page: "/graphql/first-use"
 facilitator: false
 sidebar:
-  nav: "github-graphql"
+  nav: github-graphql
 main-content: |
-    ## An Introduction to APIs for Complete Beginners
+  ## An Introduction to APIs for Complete Beginners
 
-    Modern apps are interdependent and dynamic. For example, you probably sign in to various web apps using your GitHub account. These apps may be grabbing your [avatar](https://github.com/blog/1586-identicons) directly from GitHub, or some information about your projects. The data about your project is always changing so, as an added bonus, these connections are constantly updating the information that is displayed.
+  Modern apps are interdependent and dynamic. For example, you probably sign in to various web apps using your GitHub account. These apps may be grabbing your [avatar](https://github.com/blog/1586-identicons) directly from GitHub, or some information about your projects. The data about your project is always changing so, as an added bonus, these connections are constantly updating the information that is displayed.
 
-    GitHub isn't the only web app that does this. A few examples of rich data sources are:
+  GitHub isn't the only web app that does this. A few examples of rich data sources are:
 
-    - [Weather Underground](https://www.wunderground.com/weather/api/): get access to your local weather or report it from you home weather station
-    - [Flight stats](https://developer.flightstats.com/api-docs/flightstatus/v2): grab information about any flight, and
-    - [ESPN](http://www.espn.com/static/apis/devcenter/docs/scores.html): keep track of your favorite sports team's record
+  - [Weather Underground](https://www.wunderground.com/weather/api/): get access to your local weather or report it from you home weather station
+  - [Flight stats](https://developer.flightstats.com/api-docs/flightstatus/v2): grab information about any flight, and
+  - [ESPN](http://www.espn.com/static/apis/devcenter/docs/scores.html): keep track of your favorite sports team's record
 
-    This data is available to you because the developers of these apps created a public Application Program Interface (API).
+  This data is available to you because the developers of these apps created a public Application Program Interface (API).
 
-    This course is going to introduce the concept of using APIs via GitHub's GraphQL. You'll learn how to gather data from GitHub, and how to make a simple change.
+  This course is going to introduce the concept of using APIs via GitHub's GraphQL. You'll learn how to gather data from GitHub, and how to make a simple change.
 
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/dsPVrbDHgaY?ecver=1" frameborder="0" allowfullscreen></iframe></center>
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/dsPVrbDHgaY?ecver=1" frameborder="0" allowfullscreen></iframe></center>
 
-    There are several types of APIs. Learn more by expanding the "Tell me why" section below.
-
-
-tell-me-why: |
+  There are several types of APIs. Learn more by expanding the "Tell me why" section below.
+tell-me-why: |2
 
   ## GraphQL vs. Other APIs
 
@@ -61,3 +59,4 @@ tell-me-why: |
 
   You can find use cases and examples of GraphQL in action in [GitHub's official GraphQL documentation](https://developer.github.com/v4/).
 ---
+

@@ -1,16 +1,16 @@
 ---
+title: Git Push & Git Pull
+permalink: "/github-cli/git-push-git-pull"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Git Push & Git Pull
-permalink: /github-cli/git-push-git-pull
-next-page: /github-cli/add-github-pages-site-showcase
+next-page: "/github-cli/add-github-pages-site-showcase"
 facilitator: false
 sidebar:
-  nav: "github-cli"
-main-content: |
+  nav: github-cli
+main-content: |2
 
   After you merge your Pull Request, you will need to update your local copy of the repository.
 
@@ -23,8 +23,7 @@ main-content: |
   2. Type:
 
           git pull
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Keeping the Local Repository in Sync
 
@@ -41,5 +40,5 @@ tell-me-why: |
   Similar to how we use `push` to send our changes to the remote, we use `pull` to retrieve changes from the remote. When we pull the files from the remote, Git downloads a copy of the new commits that have been added to the branch since our last pull and then attempts to merge them into our local branch.
 
   You should pull your repository regularly to ensure you are always working with the most recent copies of the files in the repository.
-
 ---
+

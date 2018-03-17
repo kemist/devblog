@@ -1,4 +1,6 @@
 ---
+title: Añadir commits locales con GitHub Desktop
+permalink: "/github-desktop/es/nuevos-commits-github-desktop"
 lang: es
 ref: gh-desktop-08
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Añadir commits locales con GitHub Desktop
-permalink: /github-desktop/es/nuevos-commits-github-desktop
-next-page: /github-desktop/es/pull-request-github-desktop
+next-page: "/github-desktop/es/pull-request-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   Una vez que hayas terminado de hacer tus cambios, es hora de hacer commit (confirmarlos).
 
@@ -25,8 +25,7 @@ main-content: |
 
   1. Escribe tu mensaje de commit en el campo _Summary_.
   1. Verás que GitHub Desktop ha rellenado automáticamente el botón de commit con el branch actual. Simplemente haz clic en el botón para hacer commit de tus cambios.
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Crear buenos commits
 
@@ -36,3 +35,4 @@ tell-me-why: |
 
   Cuando selecciones los cambios realizados que quieres incluir en el commit, deberías intentar crear lo que nos gusta llamar un **commit atómico**. En otras palabras, cada commit que hagas debería contener cambios que tienen sentido juntos y representan una única unidad de trabajo.
 ---
+

@@ -1,5 +1,9 @@
 ---
 title: What’s the big deal about the small Git version control system?
+date: 2012-09-01 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: https://www.youtube.com/watch?v=8K2aYVgE_4o
 image_filename: php-git.jpg
 ---

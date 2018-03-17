@@ -2,6 +2,12 @@
 title: Development Blog
 timezone: America/New_York
 collections:
+  courses:
+    title: Courses
+    output: true
+  modules:
+    title: Modules
+    output: true
   posts:
     title: Posts
     output: true
@@ -11,69 +17,41 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
   values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
-
-# Site Settings
-locale                   : "en-US"
-# Keep original, do not replace
-# title                    : "Dev Blog"
-title_separator          : "-"
-name                     : "Kemedia"
-description              : "Multiple. Media. Mastery."
-baseurl                  : "/posts" # the subpath of your site, e.g. "/blog"
-gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+    lang: en
+permalink: "/articles/:title/"
+locale: en-US
+title_separator: "-"
+name: Kemedia
+description: Multiple. Media. Mastery.
+baseurl: "/posts"
+gh_repo: 
+teaser: 
+breadcrumbs: true
+words_per_minute: 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider: 
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: 
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: 
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-
-
-
-
-# analytics:
-#   provider               : google # false (default), "google", "google-universal", "custom"
-#   google:
-#     tracking_id          : UA-80557370-2
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+    appid: 
+    num_posts: 
+    colorscheme: 
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-# standard jekyll configuration
-
 parentsite: https://services.github.com
-permalink: /articles/:title/
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
 exclude:
 - bin
 - config.rb
@@ -85,28 +63,12 @@ exclude:
 - README.md
 - script
 - vendor
-
-collections:
-  modules:
-    output: true
-  courses:
-    output: true
-
 include:
 - _stylesheets
 - _javascript
 sass:
   load_paths:
-    - assets/_scss
-    - node_modules
+  - assets/_scss
+  - node_modules
   style: :compressed
-
-# Custom site configuration
 lang: en
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      lang: "en"

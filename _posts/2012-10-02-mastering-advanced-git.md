@@ -1,5 +1,9 @@
 ---
 title: O'Reilly Media • Mastering Advanced Git
+date: 2012-10-02 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: http://bit.ly/ogitvid2
 image_filename: mastering-advanced-git.jpg
 ---

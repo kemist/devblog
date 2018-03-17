@@ -1,4 +1,6 @@
 ---
+title: Hacer cambios locales con GitHub Desktop
+permalink: "/github-desktop/es/hacer-cambios-github-desktop"
 lang: es
 ref: gh-desktop-07
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Hacer cambios locales con GitHub Desktop
-permalink: /github-desktop/es/hacer-cambios-github-desktop
-next-page: /github-desktop/es/nuevos-commits-github-desktop
+next-page: "/github-desktop/es/nuevos-commits-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   Es hora de crear la página principal de tu sitio web.
 
@@ -35,10 +35,9 @@ main-content: |
   1. Crea un nuevo archivo con el nombre `index.html`.
   1. En tu archivo `index.html`, incluye al menos las siguientes dos líneas: `<h1> ¡Hola mundo! </h1>` y `<p> Mi nombre es TU-USUARIO-GITHUB </p>`. Puntos extra si incluyes más información o si usas [Jekyll Themes](http://jekyllthemes.org/) para crear un sitio más robusto.
   1. Cuando hayas terminado, guarda el archivo en la carpeta de tu repositorio y cierra el editor de texto.
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why-es/crear-archivo-local.md
-
+  - tell-me-why-es/crear-archivo-local.md
 ---
+

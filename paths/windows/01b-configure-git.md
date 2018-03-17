@@ -1,14 +1,14 @@
 ---
+title: Configure Git
+permalink: "/windows/configure-git"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Configure Git
-permalink: /windows/configure-git
-next-page: /windows/git-crlf
+next-page: "/windows/git-crlf"
 sidebar:
-  nav: "windows"
-main-content: |
+  nav: windows
+main-content: |2
 
   After installing Git, it is necessary to setup some of the configuration options. The configuration options you need to define include, `user.name`, `user.email`, and `core.autocrlf`.
 
@@ -23,9 +23,8 @@ main-content: |
   In your terminal application enter, `git config --global user.email your_email@email_host.com`; where `your_email@mail_host.com` is the e-mail address associated with your GitHub account.
 
   Now that you have configured your user name and email, it is time to define your Carriage Return Line Feed (crlf) settings on the next page.
-
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Why --global?
 
@@ -38,3 +37,4 @@ tell-me-why: |
   The default value for git config is `--local`. `--local` has precedence so setting something at the local level will override settings at the `--global` or `--system` level.
   ![](../images/config-levels.jpg){: .align-center}
 ---
+

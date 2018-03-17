@@ -1,4 +1,6 @@
 ---
+title: Clonar el repositorio con GitHub Desktop
+permalink: "/github-desktop/es/clonar-repositorio-github-desktop"
 lang: es
 ref: gh-desktop-05
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Clonar el repositorio con GitHub Desktop
-permalink: /github-desktop/es/clonar-repositorio-github-desktop
-next-page: /github-desktop/es/crear-branches-github-desktop
+next-page: "/github-desktop/es/crear-branches-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   Después de que hayas creado el repositorio en remoto, el siguiente paso es clonarlo a tu entorno local.
 
@@ -23,10 +23,9 @@ main-content: |
   1. Haz clic en **Open in Desktop**. Esto abrirá GitHub Desktop.
   1. Selecciona dónde te gustaría guardarlo localmente en el campo `Local Path`.
   1. Haz clic en `Clone`.
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/local-remote.md
-
+  - tell-me-why/local-remote.md
 ---
+

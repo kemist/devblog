@@ -1,4 +1,6 @@
 ---
+title: Find Your Coordinates
+permalink: "/intro-to-github/find-your-coordinates"
 lang: en
 ref: intro-to-github-06
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Find Your Coordinates
-permalink: /intro-to-github/find-your-coordinates
-next-page: /intro-to-github/work-on-github
+next-page: "/intro-to-github/work-on-github"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content: |
   To create your pin, you will need to know the latitude and longitude of your home town:
 
@@ -27,7 +27,7 @@ main-content: |
         We found this based on IP address: <span id="ip"></span>
         </div>
   1. Jot down your latitude and longitude, you'll need to enter it in the coming steps.
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

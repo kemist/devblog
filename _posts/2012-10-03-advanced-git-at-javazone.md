@@ -1,5 +1,9 @@
 ---
 title: Advanced Git Tricks
+date: 2012-10-03 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: http://vimeo.com/49444883
 image_filename: advanced-git-tricks.jpg
 ---

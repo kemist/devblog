@@ -1,16 +1,16 @@
 ---
+title: Add an Icon
+permalink: "/electron/package-your-app/add-an-icon/"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-electron-app/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Add an Icon
-permalink: /electron/package-your-app/add-an-icon/
-next-page: /electron/package-your-app/test-your-app/
+next-page: "/electron/package-your-app/test-your-app/"
 facilitator: false
 sidebar:
-  nav: "electron-package-your-app"
-main-content: |
+  nav: electron-package-your-app
+main-content: |2
 
   We have an app, but right now the app only uses the default image. Let's make it a specific, custom image.
 
@@ -53,9 +53,7 @@ main-content: |
   1. Rebuild: `npm run build`
 
   To see an example file of this, [take a peek at our example repository](https://github.com/githubschool/on-demand-electron-app/blob/master/package.json#L12-L16).
-
-
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

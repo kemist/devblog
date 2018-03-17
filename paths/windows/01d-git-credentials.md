@@ -1,14 +1,14 @@
 ---
+title: Store Your Password
+permalink: "/windows/git-credentials"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Store Your Password
-permalink: /windows/git-credentials
-next-page: /windows/editors
+next-page: "/windows/editors"
 sidebar:
-  nav: "windows"
-main-content: |
+  nav: windows
+main-content: |2
 
   Entering your password in your terminal application of choice after every push can become _really_ frustrating, so why not save your password? Saving your password is really simple, even if you are on a Windows machine!
 
@@ -20,6 +20,6 @@ main-content: |
   1. Perform an operation that normally requires you to enter your password, like `git push`. Then, enter your password when prompted, and you shouldn't have to enter it again.
 
   For more information about caching your password, review the GitHub Help [documentation](https://help.github.com/articles/caching-your-github-password-in-git/#platform-windows).
-show-me-how:
-
+show-me-how: 
 ---
+

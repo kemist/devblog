@@ -1,15 +1,15 @@
 ---
+title: Git Commit Message Sucks
+permalink: "/git-trouble/git-commit-message"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Git Commit Message Sucks
-permalink: /git-trouble/git-commit-message
-next-page: /git-trouble/git-scenarios
+next-page: "/git-trouble/git-scenarios"
 facilitator: false
 sidebar:
-  nav: "advanced"
-main-content: |  
+  nav: advanced
+main-content: |
   As you begin creating commits you might 'accidentally' create a commit message that is borderline atrocious; something like 'Fixed the thing'. Although you are definitely aware of the **thing** you just **fixed**, other collaborators (including future you) will not know what you fixed and more importantly, **why** you needed to fix it. Thankfully, Git is well aware of our tendency to craft terrible commit messages and has a handful of commands that save even the vaguest commit message.
 
   Keep in mind, all exercises expect you to have run the script to create files using the scripts found on the [Set Up Your Environment]({{site.baseurl}}/git-set-up) page.
@@ -46,7 +46,6 @@ pushed: |
    1. Close the text editor and enter: `git rebase --continue`.
    1. Repeat the two previous steps for each commit you would like to edit.
    1. When you have edited the last commit, the rebase will finish. Enter: `git push --force-with-lease` to push your new commits to the remote.
-
 didnt-push: |
   You have a couple of options when it comes to fixing a bad commit message. First, you need to ask yourself:
 
@@ -71,12 +70,12 @@ didnt-push: |
    1. Identify the SHA-1 hash associated with the commit just before the one you want to fix. For practice, let's use the one where **file 4** was added.
    1. Enter `git reset --mixed SHA-1`, where SHA-1 is the SHA-1 of the commit before the one you want to fix.
    1. The changes you made in the file 5 and file 6 commits are now sitting in your working directory. Simply re-add and re-commit the changes.
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/trouble-commitamend.md
-    - tell-me-why/trouble-pushforcewithlease.md
-    - tell-me-why/trouble-reset-xref.md
-    - tell-me-why/trouble-rebase.md
+  - tell-me-why/trouble-commitamend.md
+  - tell-me-why/trouble-pushforcewithlease.md
+  - tell-me-why/trouble-reset-xref.md
+  - tell-me-why/trouble-rebase.md
 ---
+

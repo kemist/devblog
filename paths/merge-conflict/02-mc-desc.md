@@ -1,14 +1,14 @@
 ---
+title: Merge Conflict Description
+permalink: "/merge-conflicts/mc-description/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: Merge Conflict Description
-permalink: /merge-conflicts/mc-description/
-next-page: /merge-conflicts/first-conflict/
+next-page: "/merge-conflicts/first-conflict/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   To explain a merge conflict, it might be useful to have an example. Imagine we are creating a template for people to describe themselves. You might have something that looks like this:
 
@@ -37,5 +37,5 @@ main-content: |
   When **Matt** merges his changes into the deployment branch, he won't encounter a merge conflict.
 
   However, when **Briana** tries to merge her changes into the deployment branch, she is going to encounter a merge conflict.
-
 ---
+

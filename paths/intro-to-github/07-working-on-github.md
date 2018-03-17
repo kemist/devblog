@@ -1,4 +1,6 @@
 ---
+title: Work on GitHub
+permalink: "/intro-to-github/work-on-github"
 lang: en
 ref: intro-to-github-07
 layout: simple-class
@@ -6,16 +8,14 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Work on GitHub
-permalink: /intro-to-github/work-on-github
-next-page: /intro-to-github/create-pull-request
+next-page: "/intro-to-github/create-pull-request"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content:
   includes:
   - activity/intro-to-github/04-create-a-file-on-github.md
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Add a New File
 
@@ -41,5 +41,5 @@ tell-me-why: |
   ## Choose Your Branch
 
   Next, designate where you want your changes to be committed. If you were on your branch when you clicked the **Create new file** button, GitHub will prompt you to commit directly to that branch. But, if you forgot to create a new branch, you can do it now.
-
 ---
+

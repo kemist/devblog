@@ -1,4 +1,6 @@
 ---
+title: Edit Files on GitHub
+permalink: "/intro-to-github/edit-files-on-github"
 lang: en
 ref: intro-to-github-10
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Edit Files on GitHub
-permalink: /intro-to-github/edit-files-on-github
-next-page: /intro-to-github/merge-pull-request
+next-page: "/intro-to-github/merge-pull-request"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content: |
   The class repository uses continuous integration to ensure that the file you have created meets all of the requirements. If something is wrong, you will see a message stating **Checks have failed**. Here is what you should do:
 
@@ -20,13 +20,12 @@ main-content: |
   4. Make the necessary changes.
   5. Scroll to the bottom of the page and add the commit to your branch.
   6. This will kick off a new round of checks!
-
 troubleshooting:
   includes:
-    - help-build-fail.md
-    - help-gh101-common.md
-    - help-other-things.md
-show-me-how:
+  - help-build-fail.md
+  - help-gh101-common.md
+  - help-other-things.md
+show-me-how: 
 tell-me-why: |
   ## When Should You Edit?
 
@@ -34,3 +33,4 @@ tell-me-why: |
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/F0IvcyTwDt4" frameborder="0" allowfullscreen></iframe>
 ---
+

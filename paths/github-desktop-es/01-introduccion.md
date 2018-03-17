@@ -1,4 +1,6 @@
 ---
+title: GitHub Pages desde GitHub Desktop
+permalink: "/github-desktop/es/"
 lang: es
 ref: gh-desktop-01
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: GitHub Pages desde GitHub Desktop
-permalink: /github-desktop/es/
-next-page: /github-desktop/es/instalar-github-desktop
+next-page: "/github-desktop/es/instalar-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   **Primer paso imprescindible**: Antes de seguir esta clase, deberías completar nuestro curso [Introducción a GitHub](../intro-to-github-es/).
 
@@ -30,6 +30,7 @@ main-content: |
   <div class="contribution_graph">
   <div id="github_chart_1" class="github_chart_1"></div>
   </div>
-show-me-how:
-tell-me-why:
+show-me-how: 
+tell-me-why: 
 ---
+

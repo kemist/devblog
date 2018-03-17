@@ -1,4 +1,6 @@
 ---
+title: Busca tus coordenadas
+permalink: "/intro-to-github/es/buscar-coordenadas"
 lang: es
 ref: intro-to-github-06
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Busca tus coordenadas
-permalink: /intro-to-github/es/buscar-coordenadas
-next-page: /intro-to-github/es/trabajar-en-github
+next-page: "/intro-to-github/es/trabajar-en-github"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content: |
   Para crear tu pin, necesitas saber la latitud y longitud en las que te encuentras:
 
@@ -27,7 +27,7 @@ main-content: |
         Encontramos esto basándonos en la dirección IP: <span id="ip"></span>
         </div>
   1. Anota tu latitud y longitud, necesitarás introducirlas en los próximos pasos.
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

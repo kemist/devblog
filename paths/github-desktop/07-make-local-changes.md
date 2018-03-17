@@ -1,4 +1,6 @@
 ---
+title: Make Local Changes With GitHub Desktop
+permalink: "/github-desktop/make-changes-github-desktop"
 lang: en
 ref: gh-desktop-07
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Make Local Changes With GitHub Desktop
-permalink: /github-desktop/make-changes-github-desktop
-next-page: /github-desktop/add-commits-github-desktop
+next-page: "/github-desktop/add-commits-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
-main-content: |
+  nav: github-desktop-nav
+main-content: |2
 
   It's time to create the home page for your website.
 
@@ -35,10 +35,9 @@ main-content: |
   1. Create a new file named `index.html`.
   1. In your `index.html` file, include at least the following two lines: `<h1> Hello World! </h1>` and `<p> My name is GITHUB_USERNAME </p>`. Bonus points for including more information, or using [Jekyll Themes](http://jekyllthemes.org/) to create a more robust site.
   1. When you are finished, save your file inside your repository folder, and close the text editor.
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/create-file-locally.md
-
+  - tell-me-why/create-file-locally.md
 ---
+

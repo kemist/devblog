@@ -1,13 +1,13 @@
 ---
+title: Start a Project
+permalink: "/windows/vs-start-project"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Start a Project
-permalink: /windows/vs-start-project
-next-page: /windows/vs-make-commit
+next-page: "/windows/vs-make-commit"
 sidebar:
-  nav: "windows"
+  nav: windows
 main-content: |
   When creating a repository using the Visual Studio extension there might be some confusion on how to get your repository on GitHub.com.
 
@@ -36,5 +36,5 @@ main-content: |
   1. Click **Initialize this repository with a README** checkbox.
   1. Click **Create repository**.
   1. Use the **Quick setup** instructions to clone your repository to your machine.
-
 ---
+

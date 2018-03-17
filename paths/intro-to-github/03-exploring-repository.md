@@ -1,4 +1,6 @@
 ---
+title: Explore the GitHub Repository
+permalink: "/intro-to-github/explore-github-repository"
 lang: en
 ref: intro-to-github-03
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Explore the GitHub Repository
-permalink: /intro-to-github/explore-github-repository
-next-page: /intro-to-github/use-github-flow
+next-page: "/intro-to-github/use-github-flow"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content: |
   Take a few minutes to familiarize yourself with the layout of a GitHub repository:
 
@@ -20,8 +20,8 @@ main-content: |
   2. Navigate to the **Code** tab to find the repository README.
   3. Click on an **Issue** and a **Pull Request** to see the difference (HINT: one contains changes to code, the other does not).
   4. Click **Insights** and select the **Pulse** or **Graphs** sub-options to view some of our repository stats.
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Exploring A GitHub Repository
 
@@ -45,5 +45,5 @@ tell-me-why: |
 
   - **CONTRIBUTING.md**: The `CONTRIBUTING.md` is used to describe the process for collaborating on the repository. The link to the `CONTRIBUTING.md` file is shown anytime someone begins to create a new issue or pull request.
   - **ISSUE_TEMPLATE.md**: The `ISSUE_TEMPLATE.md` is yet another special file you can use to pre-populate the body of an issue. For example, if you always want to gather certain types of information for bug reports, you can include it in the issue template and every new issue will be opened with your recommended starter text.
-
 ---
+

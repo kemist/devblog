@@ -1,4 +1,6 @@
 ---
+title: Introducción a GitHub
+permalink: "/intro-to-github/es/"
 lang: es
 ref: intro-to-github-00
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Introducción a GitHub
-permalink: /intro-to-github/es/
-next-page: /intro-to-github/es/crear-cuenta-github
+next-page: "/intro-to-github/es/crear-cuenta-github"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content: |
   ## Estamos felices de que estés aquí :octocat:
 
@@ -26,10 +26,9 @@ main-content: |
   <div id="map" style="height: 400px;" class="width-full my-3"></div>
 
   **¿Estás listo?** Haz clic en el botón **Continuar** abajo para ver qué viene después.
-
 show-me-how:
   includes:
-    - intro-video.html
+  - intro-video.html
 tell-me-why: |
   ## ¿Qué es GitHub?
 
@@ -48,5 +47,5 @@ tell-me-why: |
   **GitHub es mucho más.**
 
   GitHub se utiliza para crear algunas de las aplicaciones más potentes en el mundo. Puede hacer un montón de cosas realmente geniales, pero esta clase se centrará en iniciarte en lo más básico. ¡Profundizaremos en el resto más adelante!
-
 ---
+

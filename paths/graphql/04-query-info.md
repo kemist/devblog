@@ -1,16 +1,16 @@
 ---
+title: Grab a Query's Response
+permalink: "/graphql/query-info"
 layout: simple-class
 help: https://github.com/githubschool/graph-ql/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Grab a Query's Response
-permalink: /graphql/query-info
-next-page: /graphql/another-query
+next-page: "/graphql/another-query"
 facilitator: false
 sidebar:
-  nav: "github-graphql"
-main-content: |
+  nav: github-graphql
+main-content: |2
 
   ## Get Ready to Mutate
 
@@ -27,8 +27,7 @@ main-content: |
 
 
   1. Save this template somewhere where you can get to it later, like a text editor or as a comment in an issue.
-
-tell-me-why: |
+tell-me-why: |2
 
   ### Why are we making this file?
 
@@ -38,3 +37,4 @@ tell-me-why: |
 
   For this course, we are going to use this information in our first **mutation**.
 ---
+

@@ -1,14 +1,14 @@
 ---
+title: Set Up the Repository
+permalink: "/merge-conflicts/setup/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: Set Up the Repository
-permalink: /merge-conflicts/setup/
-next-page: /merge-conflicts/normal-merge/
+next-page: "/merge-conflicts/normal-merge/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   To participate in this course, you're going to need to **import** a project from the [GitHub Training organization](https://github.com/githubtraining). Importing a project will essentially copy the repository -- including all of the files, branches, and history to your account.
 
@@ -23,3 +23,4 @@ main-content: |
   1. Select **Public** under the privacy options.
   1. Click **Begin import**.
 ---
+

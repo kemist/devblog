@@ -1,5 +1,9 @@
 ---
 title: O'Reilly Media • Mastering Git
+date: 2012-10-01 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: http://bit.ly/ogitvid
 image_filename: mastering-git.jpg
 ---

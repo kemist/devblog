@@ -1,14 +1,14 @@
 ---
+title: Visual Studio Code
+permalink: "/merge-conflicts/ide-vs-code/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: Visual Studio Code
-permalink: /merge-conflicts/ide-vs-code/
-next-page: /merge-conflicts/ide-intro/
+next-page: "/merge-conflicts/ide-intro/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   The [Visual Studio Code](https://code.visualstudio.com/) editor enables you to remove merge conflicts similar to the GitHub.com UI.
 
@@ -38,3 +38,4 @@ main-content: |
 
   ![octocat wearing a red polo](https://octodex.github.com/images/red-polo.png)
 ---
+

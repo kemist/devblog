@@ -1,13 +1,13 @@
 ---
+title: Configure Line Endings
+permalink: "/windows/git-crlf"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Configure Line Endings
-permalink: /windows/git-crlf
-next-page: /windows/git-credentials
+next-page: "/windows/git-credentials"
 sidebar:
-  nav: "windows"
+  nav: windows
 main-content: |
   Git is a really powerful collaboration tool, but not everyone you collaborate with uses the same operating system. Thankfully, Git comes to the party equipped with all the tools necessary to make collaborating easy. Once you identify what OS you are working on, Git can take care of the rest.
 
@@ -16,9 +16,8 @@ main-content: |
   1. Open your terminal application.
   1. Enter: `git config --global core.autocrlf true`.
   1. To ensure you applied the configuration setting, you can enter: `git config --global --list` to view the different configurations settings.
-
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ### What does autocrlf do?
 
@@ -30,3 +29,4 @@ tell-me-why: |
 
   For more information about autocrlf, see the [GitHub Help documentation](https://help.github.com/articles/dealing-with-line-endings/).
 ---
+

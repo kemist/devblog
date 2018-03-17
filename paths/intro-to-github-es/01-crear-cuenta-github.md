@@ -1,4 +1,6 @@
 ---
+title: Crear una cuenta en GitHub
+permalink: "/intro-to-github/es/crear-cuenta-github"
 lang: es
 ref: intro-to-github-01
 layout: simple-class
@@ -6,15 +8,13 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Crear una cuenta en GitHub
-permalink: /intro-to-github/es/crear-cuenta-github
-next-page: /intro-to-github/es/unete-repo-clase
+next-page: "/intro-to-github/es/unete-repo-clase"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content:
   includes:
   - activity/intro-to-github-es/00-crear-cuenta-github.md
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Explorando GitHub
 
@@ -35,5 +35,5 @@ tell-me-why: |
   Leerás muchas veces la palabra "repositorio", así que hablemos sobre ello. Un repositorio es un contenedor que recoge todo lo relacionado con un proyecto específico.
 
   Si acabas de crear tu cuenta, seguramente no tendrás ningún repositorio todavía. No te preocupes, ¡lo arreglaremos en la próxima página!
-
 ---
+

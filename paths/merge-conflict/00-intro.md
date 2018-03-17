@@ -1,14 +1,14 @@
 ---
+title: Managing Merge Conflicts
+permalink: "/merge-conflicts/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: Managing Merge Conflicts
-permalink: /merge-conflicts/
-next-page: /merge-conflicts/setup/
+next-page: "/merge-conflicts/setup/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   You might have heard the term _merge conflict_ in hushed whispers from another Git user. Maybe you've encountered one yourself and had to Google your way out. You might also just be exploring everything Git has to offer and have no idea what a merge conflict is.
 
@@ -21,5 +21,5 @@ main-content: |
   It's a good idea to complete a few other courses first, specifically the [Introduction to GitHub](../intro-to-github/), and either [GitHub Pages from GitHub Desktop](../github-desktop/) or [GitHub Pages from the Command Line](../github-cli/).
 
   If you have any questions while taking the course, make sure to create an Issue in the primary [class repository](https://github.com/githubtraining/on-demand-merge-conflict/issues).
-
 ---
+

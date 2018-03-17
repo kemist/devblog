@@ -1,15 +1,15 @@
 ---
+title: Make Local Changes With Git
+permalink: "/github-cli/make-local-changes-git"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Make Local Changes With Git
-permalink: /github-cli/make-local-changes-git
-next-page: /github-cli/add-commits-git
+next-page: "/github-cli/add-commits-git"
 facilitator: false
 sidebar:
-  nav: "github-cli"
+  nav: github-cli
 main-content: |
   It's time to create the home page for your website.
 
@@ -43,9 +43,9 @@ main-content: |
 
     1. Save your file inside your repository folder, and close the text editor.
   </details>
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/create-file-locally.md
+  - tell-me-why/create-file-locally.md
 ---
+

@@ -1,48 +1,47 @@
 ---
+title: Build a Query
+permalink: "/graphql/first-query"
 layout: simple-class
 help: https://github.com/githubschool/graph-ql/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Build a Query
-permalink: /graphql/first-query
-next-page: /graphql/query-info
+next-page: "/graphql/query-info"
 facilitator: false
 sidebar:
-  nav: "github-graphql"
-main-content: |
+  nav: github-graphql
+main-content: |2
 
- ## Building a Useful Query
+  ## Building a Useful Query
 
- Let's imagine that you'd like to update your team about some of your recent work via [an issue](https://guides.github.com/features/issues/). You could use a GraphQL query to find the repositories you've most recently contributed to.
+  Let's imagine that you'd like to update your team about some of your recent work via [an issue](https://guides.github.com/features/issues/). You could use a GraphQL query to find the repositories you've most recently contributed to.
 
- ![animated gif of instructions outlined below](../images/gifs/graphql/build-query.gif)
+  ![animated gif of instructions outlined below](../images/gifs/graphql/build-query.gif)
 
- 1. Paste this query into the [GraphQL explorer](https://developer.github.com/v4/explorer/).
+  1. Paste this query into the [GraphQL explorer](https://developer.github.com/v4/explorer/).
 
-         query {
-            viewer {
-             contributedRepositories(last:5, privacy:PUBLIC) {
-               edges {
-                 node {
-                   owner {
-                     login
-                   }
-                   name
-                   url
-                 }
-               }
-             }
-           }
-         }
+          query {
+             viewer {
+              contributedRepositories(last:5, privacy:PUBLIC) {
+                edges {
+                  node {
+                    owner {
+                      login
+                    }
+                    name
+                    url
+                  }
+                }
+              }
+            }
+          }
 
-    > To identify what the different parts of this query are doing, click "Tell me why" below. We could easily change this query to ask for different information. If you'd like, feel free to do that in your own query!
+     > To identify what the different parts of this query are doing, click "Tell me why" below. We could easily change this query to ask for different information. If you'd like, feel free to do that in your own query!
 
-  1. Click the "Execute Query" button (it looks like a Play button) to run the query that is in the left pane and display the results in the right pane.
+   1. Click the "Execute Query" button (it looks like a Play button) to run the query that is in the left pane and display the results in the right pane.
 
-  This example shows that with the same code, we can get updated data! Any time you have to manually search for information, try to find out if and how you could use an API to do it for you.
-
-tell-me-why: |
+   This example shows that with the same code, we can get updated data! Any time you have to manually search for information, try to find out if and how you could use an API to do it for you.
+tell-me-why: |2
 
   ### What is a query?
 
@@ -67,5 +66,5 @@ tell-me-why: |
   - [**url:**](https://developer.github.com/v4/reference/object/repository/#fields) The repository's URL.
 
   > As you begin exploring and crafting your own queries for your unique projects, you can click the "< Docs" button located above the right pane of the GraphQL Explorer to get a definition of different query objects or look for query objects that will perform the task you are attempting.
-
 ---
+

@@ -1,5 +1,9 @@
 ---
 title: Git Notes and GitHub
+date: 2012-09-03 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: http://vimeo.com/34273537
 image_filename: git-notes.jpg
 ---

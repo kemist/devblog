@@ -1,4 +1,6 @@
 ---
+title: Push to GitHub & Create a Pull Request
+permalink: "/github-desktop/push-pull-request-github-desktop"
 lang: en
 ref: gh-desktop-15
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Push to GitHub & Create a Pull Request
-permalink: /github-desktop/push-pull-request-github-desktop
-next-page: /github-desktop/collaborate-github-pull-requests
+next-page: "/github-desktop/collaborate-github-pull-requests"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
-main-content: |
+  nav: github-desktop-nav
+main-content: |2
 
   Now that you have made some local commits, it is time to send your changes to the remote copy of your repository on GitHub.com and open a pull request.
 
@@ -23,10 +23,9 @@ main-content: |
   1. Click ['New pull request'](https://github.com/githubschool/on-demand-github-pages/compare).
   1. Ensure the `base` branch (the one on the left) is `master` and that the `compare` branch (the one on the right) is the one you created on GitHub Desktop.
   1. Complete the fields of the pull request.
-
-show-me-how:
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/pull-request.md
-
+  - tell-me-why/pull-request.md
 ---
+

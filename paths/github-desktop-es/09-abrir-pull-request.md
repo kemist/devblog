@@ -1,4 +1,6 @@
 ---
+title: Abrir un pull request con GitHub Desktop
+permalink: "/github-desktop/es/pull-request-github-desktop"
 lang: es
 ref: gh-desktop-09
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Abrir un pull request con GitHub Desktop
-permalink: /github-desktop/es/pull-request-github-desktop
-next-page: /github-desktop/es/merge-pull-request-github
+next-page: "/github-desktop/es/merge-pull-request-github"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   Ahora que ya has hecho algunos commits locales, es hora de que envíes tus cambios a la copia remota de tu repositorio en GitHub.com y abras un pull request.
 
@@ -23,8 +23,7 @@ main-content: |
   1. Haz clic en 'New pull request'.
   1. Asegúrate de que el branch `base` (el de la izquierda) es `master` y de que el branch `compare` (el de la derecha) es el que has creado en GitHub Desktop.
   1. Completa los campos del pull request.
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Revisando el GitHub Flow
 
@@ -37,5 +36,5 @@ tell-me-why: |
   1. Hacer merge del Pull Request
 
   Simplemente haz clic en el botón "Update Origin". Esto envía tu branch a GitHub. Entonces puedes abrir el Pull Request ahí.
-
 ---
+

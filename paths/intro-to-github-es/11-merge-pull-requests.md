@@ -1,4 +1,6 @@
 ---
+title: Haz merge (combina) tu Pull Request
+permalink: "/intro-to-github/es/merge-pull-requests"
 lang: es
 ref: intro-to-github-11
 layout: simple-class
@@ -6,15 +8,13 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Haz merge (combina) tu Pull Request
-permalink: /intro-to-github/es/merge-pull-requests
-next-page: /intro-to-github/es/celebrar
+next-page: "/intro-to-github/es/celebrar"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content:
   includes:
   - activity/intro-to-github-es/06-merge-un-pr.md
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Merge explicado
 
@@ -45,5 +45,5 @@ tell-me-why: |
   Cuando se han atajado todos los comentarios y todas las comprobaciones son correctas, estás listo para hacer merge de tu pull request. Este video te mostrará lo fácil que es:
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3MUmLHHxSqE" frameborder="0" allowfullscreen></iframe>
-
 ---
+

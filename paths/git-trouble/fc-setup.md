@@ -1,15 +1,15 @@
 ---
+title: Set Up Your Git Scenario Environment
+permalink: "/git-trouble/git-set-up"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Set Up Your Git Scenario Environment
-permalink: /git-trouble/git-set-up
-next-page: /git-trouble/git-scenarios
+next-page: "/git-trouble/git-scenarios"
 facilitator: false
 sidebar:
-  nav: "advanced"
-main-content: |  
+  nav: advanced
+main-content: |
   This stuff is a lot more fun if you try it out. Let's create a sample repository to play with:
 
   1. Create a repository on [GitHub.com](https://www.github.com) and `clone` it to your desktop.
@@ -46,11 +46,11 @@ main-content: |
   ![example of the "I didn't push" and "I pushed" drop downs](../images/push-dropdowns.png){: .align-center}
 
    They will help you find the right instructions for each situation.
-
 refresh:
   includes:
-    - tell-me-why/create-repo.md
-    - tell-me-why/clone-repo.md
-show-me-how:
-tell-me-why:
+  - tell-me-why/create-repo.md
+  - tell-me-why/clone-repo.md
+show-me-how: 
+tell-me-why: 
 ---
+

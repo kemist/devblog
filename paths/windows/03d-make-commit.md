@@ -1,13 +1,13 @@
 ---
+title: Make a Commit
+permalink: "/windows/vs-make-commit"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Make a Commit
-permalink: /windows/vs-make-commit
-next-page: /windows/vs-push-changes
+next-page: "/windows/vs-push-changes"
 sidebar:
-  nav: "windows"
+  nav: windows
 main-content: |
   Crafting a commit using the GitHub Extension in Visual Studio is a relatively straightforward process.
 
@@ -28,8 +28,15 @@ main-content: |
 
   ## Now what?
   After you have created a commit (or many commits) it is time to `push` your changes to your remote repository and potentially share it with other collaborators on your project.
+show-me-how: 
+tell-me-why: 'Commits are your opportunity to  create a snapshot of your project at
+  a given period in time. After creating a commit (or commits) you should `push` your
+  changes to your remote repository so that other collaborators have access to the
+  latest changes you have made to the project. Additionally, even if you are working
+  on a project without other collaborators, `push`ing your changes to your remote
+  repository acts as a backup and prevents you from losing changes should your local
+  machine encounter issues.
 
-show-me-how:
-tell-me-why: |
-   Commits are your opportunity to  create a snapshot of your project at a given period in time. After creating a commit (or commits) you should `push` your changes to your remote repository so that other collaborators have access to the latest changes you have made to the project. Additionally, even if you are working on a project without other collaborators, `push`ing your changes to your remote repository acts as a backup and prevents you from losing changes should your local machine encounter issues.
+'
 ---
+

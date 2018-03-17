@@ -1,14 +1,14 @@
 ---
+title: Your First Conflict
+permalink: "/merge-conflicts/first-conflict/"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
 help: https://github.com/githubtraining/on-demand-merge-conflict/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
-title: Your First Conflict
-permalink: /merge-conflicts/first-conflict/
-next-page: /merge-conflicts/example-01/
+next-page: "/merge-conflicts/example-01/"
 sidebar:
-  nav: "merge-conflicts"
+  nav: merge-conflicts
 main-content: |
   You're here to learn about conflicts! So let's get conflicted.
 
@@ -24,8 +24,8 @@ main-content: |
   1. Click **Mark as resolved**.
   1. Click **Commit merge**.
   1. Your Pull Request is now free of conflicts. Click **Merge pull request** to merge your pull request!
-
 tell-me-why:
   includes:
-    - /tell-me-why/merge-conflict.md
+  - "/tell-me-why/merge-conflict.md"
 ---
+

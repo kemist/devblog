@@ -1,15 +1,15 @@
 ---
+title: Create a Mutation
+permalink: "/graphql/mutation"
 layout: simple-class
 help: https://github.com/githubschool/graph-ql/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Create a Mutation
-permalink: /graphql/mutation
 facilitator: false
 sidebar:
-  nav: "github-graphql"
-main-content: |
+  nav: github-graphql
+main-content: |2
 
   ## Using GraphQL to Add an Issue Comment
 
@@ -47,6 +47,5 @@ main-content: |
   So go out there, experiment with some queries, and share them with the Training team at GitHub and other students in an issue on the course [repository](https://github.com/githubschool/graph-ql). Our favorite queries will be added to a document within the repository for all students to view!
 
   Good luck out there and may your queries be responsive.
-
-
 ---
+

@@ -1,4 +1,6 @@
 ---
+title: Revisar el Flujo GitHub local
+permalink: "/github-desktop/es/revisar-github-flow"
 lang: es
 ref: gh-desktop-14
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Revisar el Flujo GitHub local
-permalink: /github-desktop/es/revisar-github-flow
-next-page: /github-desktop/es/push-pull-request-github-desktop
+next-page: "/github-desktop/es/push-pull-request-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav-es"
-main-content: |
+  nav: github-desktop-nav-es
+main-content: |2
 
   Ahora que ya eres colaborador, vamos a utilizar el flujo de trabajo local que acabamos de aprender para hacer cambios en este repositorio.
 
@@ -36,9 +36,8 @@ main-content: |
   1. En GitHub Desktop, en la barra lateral `Changes`, asegúrate de que tu archivo está seleccionado.
   1. En GitHub Desktop, introduce un mensaje de commit que describa el cambio que estás introduciendo en el proyecto.
   1. En GitHub Desktop, haz clic en el botón `Commit to TU-BRANCH` -- asegúrate de que `TU-BRANCH` incluye tu nombre de usuario.
-
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Revisando el Flujo GitHub
 
@@ -52,3 +51,4 @@ tell-me-why: |
 
   Con suerte esto ya te suena, porque has seguido este flujo de trabajo (al menos) dos veces. Ahora lo seguirás una vez más para añadir tu página a nuestro directorio.
 ---
+

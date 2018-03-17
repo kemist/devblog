@@ -1,14 +1,14 @@
 ---
+title: Git Trouble Scenarios
+permalink: "/git-trouble/git-scenarios"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Git Trouble Scenarios
-permalink: /git-trouble/git-scenarios
 facilitator: false
 sidebar:
-  nav: "advanced"
-main-content: |  
+  nav: advanced
+main-content: |2
 
   Unlike our other [courses](../), this course doesn't follow a linear path and you can jump into any of the different scenarios provided. So `git` ready to learn about how to get out of trouble with a healthy dose of terrible `git` puns.
 
@@ -35,7 +35,7 @@ main-content: |
   ## We Love Feedback :heart:
 
   Did you find this course helpful? [Let us know](https://www.surveygizmo.com/s3/3288550/git-reset)! Did it lose you somewhere? [Tell us about it](http://www.surveygizmo.com/s3/3288550/git-reset)! You may also like to opt-in for updates on future classes.
-
-show-me-how:
-tell-me-why:
+show-me-how: 
+tell-me-why: 
 ---
+

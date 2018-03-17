@@ -1,16 +1,16 @@
 ---
+title: Git Configuration
+permalink: "/github-cli/git-configuration"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Git Configuration
-permalink: /github-cli/git-configuration
-next-page: /github-cli/create-remote-repository
+next-page: "/github-cli/create-remote-repository"
 facilitator: false
 sidebar:
-  nav: "github-cli"
-main-content: |
+  nav: github-cli
+main-content: |2
 
   This class uses the command line, so first you will need to find and open your terminal. For Windows, we recommend using [**Git Shell** or **Git Bash**](https://git-scm.com/download/windows). For Mac or Linux, your default Terminal will work.
 
@@ -45,9 +45,9 @@ main-content: |
   6. To see your current configurations, type:
 
           git config --list
-
-show-me-how:
+show-me-how: 
 tell-me-why:
- includes:
-    - tell-me-why/git-configuration.md
+  includes:
+  - tell-me-why/git-configuration.md
 ---
+

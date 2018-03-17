@@ -1,16 +1,16 @@
 ---
+title: Use a Query to Find Specific Information
+permalink: "/graphql/another-query"
 layout: simple-class
 help: https://github.com/githubschool/graph-ql/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Use a Query to Find Specific Information
-permalink: /graphql/another-query
-next-page: /graphql/mutation
+next-page: "/graphql/mutation"
 facilitator: false
 sidebar:
-  nav: "github-graphql"
-main-content: |
+  nav: github-graphql
+main-content: |2
 
   ## We Need More Information
 
@@ -32,8 +32,7 @@ main-content: |
                 }
               }
   1. Find the issue's `id` in your results and put it in a safe place. We'll need it for the next step when we build a mutation.
-
-tell-me-why: |
+tell-me-why: |2
 
   Did building the query give you trouble? That's OK! Here's the full query. Paste it into the GraphQL Explorer to get the issue `id` for your own issue, just be sure to replace `#` with the number of [your own issue](https://github.com/githubschool/graph-ql/issues).
 
@@ -44,5 +43,5 @@ tell-me-why: |
           }
         }
       }
-
 ---
+

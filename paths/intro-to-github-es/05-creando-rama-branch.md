@@ -1,4 +1,6 @@
 ---
+title: Crear una rama o branch
+permalink: "/intro-to-github/es/creando-rama-branch"
 lang: es
 ref: intro-to-github-05
 layout: simple-class
@@ -6,15 +8,13 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Crear una rama o branch
-permalink: /intro-to-github/es/creando-rama-branch
-next-page: /intro-to-github/es/buscar-coordenadas
+next-page: "/intro-to-github/es/buscar-coordenadas"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content:
   includes:
   - activity/intro-to-github-es/03-crear-branch.md
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Creando una rama o branch
 
@@ -31,5 +31,5 @@ tell-me-why: |
   Un único proyecto como el nuestro puede tener cientos de branches - cada una probando nuevas funcionalidades o diferentes planteamientos para una misma funcionalidad.
 
   El truco para gestionar branches con un equipo es mantenerlos concisos y con vidas cortas. En otras palabras, una branch debería representar una única funcionalidad o resolución de problema. Y ya que GitHub no limita el número de branches que puedes tener, hace que las cosas sean mucho menos confusas si las mantienes activas sólo por unos días y las eliminas una vez que se hayan integrado (merged), de lo que hablaremos un poco más adelante.
-
 ---
+

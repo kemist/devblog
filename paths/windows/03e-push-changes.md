@@ -1,13 +1,13 @@
 ---
+title: Sharing and Receiving Changes
+permalink: "/windows/vs-push-changes"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Sharing and Receiving Changes
-permalink: /windows/vs-push-changes
-next-page: /windows/vs-sync
+next-page: "/windows/vs-sync"
 sidebar:
-  nav: "windows"
+  nav: windows
 main-content: |
   After creating a commit (or many commits), it is time to send (or `push`) your changes to your GitHub repository.
 
@@ -25,11 +25,10 @@ main-content: |
   1. Click **Pull** or **Sync** to merge the changes from your remote repository into your local files. If you select **Sync**, any local commits will be `push`ed to your remote.
 
      > The (x) in the Incoming Commits and Outgoing Commits section identifies the number of commits that you will be `fetch`ing (or retrieving) from the repository on GitHub, or how many commits you will be `push`ing (or sending) to the repository.
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
-   Sharing your changes on GitHub accomplishes a few things:
-   - Contributors on your project have the latest version of your working files on a specific branch.
-   - It acts as a backup to the project files on your local machine.
-
+  Sharing your changes on GitHub accomplishes a few things:
+  - Contributors on your project have the latest version of your working files on a specific branch.
+  - It acts as a backup to the project files on your local machine.
 ---
+

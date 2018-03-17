@@ -1,16 +1,16 @@
 ---
+title: Review the Local GitHub Flow in the Command Line
+permalink: "/github-cli/github-flow-cli"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Review the Local GitHub Flow in the Command Line
-permalink: /github-cli/github-flow-cli
-next-page: /github-cli/git-push-open-pull-request
+next-page: "/github-cli/git-push-open-pull-request"
 facilitator: false
 sidebar:
-  nav: "github-cli"
-main-content: |
+  nav: github-cli
+main-content: |2
 
   Now that you are a collaborator, use the local workflow we just learned to make changes to this repository. This exercise is a bit of a review, but if you need assistance with any of the required steps, more detailed directions are available in **I need a refresher** below! Good luck!
 
@@ -36,11 +36,10 @@ main-content: |
   1. Ensure your work was committed.
 
           git status
-
-show-me-how:
+show-me-how: 
 refresh:
-   includes:
-      - /refresh/github-CLI/local-review.md
+  includes:
+  - "/refresh/github-CLI/local-review.md"
 tell-me-why: |
   ## Reviewing the GitHub Flow
 
@@ -56,3 +55,4 @@ tell-me-why: |
 
   You've followed this workflow twice so far; once in the [Introduction to GitHub](../intro-to-github/) course, and once in this course.
 ---
+

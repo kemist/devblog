@@ -1,16 +1,16 @@
 ---
+title: Create your App's Files
+permalink: "/electron/create-an-app/create-your-apps-files/"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-electron-app/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Create your App's Files
-permalink: /electron/create-an-app/create-your-apps-files/
-next-page: /electron/create-an-app/run-your-first-electron-app/
+next-page: "/electron/create-an-app/run-your-first-electron-app/"
 facilitator: false
 sidebar:
-  nav: "create-an-app-in-electron"
-main-content: |
+  nav: create-an-app-in-electron
+main-content: |2
 
   Since we used a boilerplate, the most important files are already there. These files are:
 
@@ -33,9 +33,7 @@ main-content: |
   1. Add the following code on a new line directly above `</body>`.
 
           <script type="text/javascript" src="renderer.js"></script>
-
-
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

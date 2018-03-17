@@ -1,4 +1,6 @@
 ---
+title: Merge Your Pull Request on GitHub
+permalink: "/github-desktop/merge-pull-request-showcase"
 lang: en
 ref: gh-desktop-17
 layout: simple-class
@@ -6,18 +8,16 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Merge Your Pull Request on GitHub
-permalink: /github-desktop/merge-pull-request-showcase
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
+  nav: github-desktop-nav
 main-content:
   includes:
-    - activity/github-desktop/16-merge-pr.md
-    - activity/github-desktop/desktopsurvey.md
-show-me-how:
+  - activity/github-desktop/16-merge-pr.md
+  - activity/github-desktop/desktopsurvey.md
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/merge-pr.md
-
+  - tell-me-why/merge-pr.md
 ---
+

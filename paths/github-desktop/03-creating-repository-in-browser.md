@@ -1,4 +1,6 @@
 ---
+title: Create the Remote Repository on GitHub
+permalink: "/github-desktop/create-remote-repository"
 lang: en
 ref: gh-desktop-03
 layout: simple-class
@@ -6,18 +8,17 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Create the Remote Repository on GitHub
-permalink: /github-desktop/create-remote-repository
-next-page: /github-desktop/choose-github-pages-theme
+next-page: "/github-desktop/choose-github-pages-theme"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
+  nav: github-desktop-nav
 main-content:
   includes:
-    - activity/github-desktop/01-create-repository.md
-show-me-how:
+  - activity/github-desktop/01-create-repository.md
+show-me-how: 
 tell-me-why:
   includes:
-    - tell-me-why/create-remote.md
-    - tell-me-why/github-pages.md
+  - tell-me-why/create-remote.md
+  - tell-me-why/github-pages.md
 ---
+

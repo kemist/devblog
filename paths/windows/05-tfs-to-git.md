@@ -1,14 +1,14 @@
 ---
+title: Sync?
+permalink: "/windows/01"
 layout: simple-class
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Sync?
-permalink: /windows/01
-next-page: /windows/02
+next-page: "/windows/02"
 sidebar:
-  nav: "windows"
-main-content: |
+  nav: windows
+main-content: |2
 
   | Git Command | TFS Command |
   | ---- | ---- |
@@ -19,12 +19,10 @@ main-content: |
   | Status | Pending Changes |
   | Push | CheckIn |
   | Pull | Get Latest Version |
+show-me-how: images/gifs/intro/example.gif
+tell-me-why: 'Tell Me Why content
 
-
-show-me-how: "images/gifs/intro/example.gif"
-tell-me-why: |
-  Tell Me Why content
+'
 ---
-
 
 https://roadtoalm.com/2013/07/19/a-starters-guide-to-git-for-tfs-gitwits/

@@ -1,4 +1,6 @@
 ---
+title: Create a GitHub Account
+permalink: "/intro-to-github/create-github-account"
 lang: en
 ref: intro-to-github-01
 layout: simple-class
@@ -6,15 +8,13 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Create a GitHub Account
-permalink: /intro-to-github/create-github-account
-next-page: /intro-to-github/join-class-repository
+next-page: "/intro-to-github/join-class-repository"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content:
   includes:
   - activity/intro-to-github/00-create-github-account.md
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Exploring GitHub
 
@@ -35,5 +35,5 @@ tell-me-why: |
   You will see this word "repository" a lot, so let's talk about it. A repository is a container that holds everything related to a specific project.
 
   If you just created your account, you may not have any repositories yet. Don't worry, we are going to fix that on the next page!
-
 ---
+

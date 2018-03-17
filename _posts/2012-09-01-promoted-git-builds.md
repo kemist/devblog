@@ -1,5 +1,9 @@
 ---
 title: Validated Build Promotions with Git, GitHub, and Jenkins
+date: 2012-09-01 00:00:00 -04:00
+categories:
+- resources
+- videos
 the_url: http://www.youtube.com/watch?v=Gd8OfAmKkMQ
 image_filename: promoted-builds.jpg
 ---

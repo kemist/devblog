@@ -1,4 +1,6 @@
 ---
+title: Review the Local GitHub Flow
+permalink: "/github-desktop/review-github-flow"
 lang: en
 ref: gh-desktop-14
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Review the Local GitHub Flow
-permalink: /github-desktop/review-github-flow
-next-page: /github-desktop/push-pull-request-github-desktop
+next-page: "/github-desktop/push-pull-request-github-desktop"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
-main-content: |
+  nav: github-desktop-nav
+main-content: |2
 
   Now that you are a collaborator, let's use the local workflow we just learned to make changes to this repository.
 
@@ -36,8 +36,7 @@ main-content: |
   1. On GitHub Desktop, within the `Changes` side bar, ensure your file is checked.
   1. On GitHub Desktop, enter a commit message describing the change you're introducing to the project.
   1. On GitHub Desktop, click the `Commit to YOUR-BRANCH` button -- ensure `YOUR-BRANCH` includes your username.
-
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Reviewing the GitHub Flow
 
@@ -51,3 +50,4 @@ tell-me-why: |
 
   Hopefully this looks familiar since you've followed this workflow (at least) twice. Now you will follow it once more to add your page to our directory.
 ---
+

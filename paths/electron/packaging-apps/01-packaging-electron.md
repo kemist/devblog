@@ -1,16 +1,16 @@
 ---
+title: Package Your App for Downloads
+permalink: "/electron/package-your-app/"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-electron-app/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Package Your App for Downloads
-permalink: /electron/package-your-app/
-next-page: /electron/package-your-app/use-electron-packager/
+next-page: "/electron/package-your-app/use-electron-packager/"
 facilitator: false
 sidebar:
-  nav: "electron-package-your-app"
-main-content: |
+  nav: electron-package-your-app
+main-content: |2
 
 
   ## Packaging Electron Applications
@@ -40,8 +40,7 @@ main-content: |
   ### Getting Help
 
   If you have any issues and need help, we've created a repository for you! If you have any questions throughout this course, go here to open an issue and ask a question: [On Demand Electron App Repo](https://github.com/githubschool/on-demand-electron-app).
-
-show-me-how:
-tell-me-why:
-
+show-me-how: 
+tell-me-why: 
 ---
+

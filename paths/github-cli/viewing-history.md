@@ -1,20 +1,20 @@
 ---
+title: Viewing History With Git Log
+permalink: "/github-cli/98"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Viewing History With Git Log
-permalink: /github-cli/98
-next-page: /github-cli/99
+next-page: "/github-cli/99"
 facilitator: false
 sidebar:
-  nav: "github-cli"
+  nav: github-cli
 main-content:
   includes:
-    - activity/github-CLI/git-log.md
+  - activity/github-CLI/git-log.md
 show-me-how: images/gifs/github-cli/viewing-history.gif
-tell-me-why: |
+tell-me-why: |2
 
   ## More About Git Log
 
@@ -43,5 +43,5 @@ tell-me-why: |
   #### `--patch`
 
   - If you would like to see the actual changes that were made, use --patch.
-
 ---
+

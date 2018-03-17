@@ -1,16 +1,16 @@
 ---
+title: Open a Pull Request on GitHub
+permalink: "/github-cli/open-pull-request-github"
 layout: simple-class
 help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%20need%20help&body=Describe%20what%20you%20need%20help%20with%20here.&labels=Help%20Wanted
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Open a Pull Request on GitHub
-permalink: /github-cli/open-pull-request-github
-next-page: /github-cli/merge-pull-request-github
+next-page: "/github-cli/merge-pull-request-github"
 facilitator: false
 sidebar:
-  nav: "github-cli"
-main-content: |
+  nav: github-cli
+main-content: |2
 
   Now that you have made some local commits, it is time to send your changes to the remote copy of your repository on GitHub.com and create a Pull Request.
 
@@ -23,11 +23,10 @@ main-content: |
   1. Enter your GitHub username and password, if prompted to do so.
   1. Create a Pull Request on GitHub.
   1. Fill out the body of the Pull Request with information about the changes you're introducing.
-
 refresh:
   includes:
-    - refresh/github-CLI/create-pr.md
-show-me-how:
+  - refresh/github-CLI/create-pr.md
+show-me-how: 
 tell-me-why: |
   ## Pushing Changes
 
@@ -59,5 +58,5 @@ tell-me-why: |
   `<BRANCH-NAME>` tells Git to create a branch on the remote with the same name as your local branch. You should replace this with your branch's name.
 
   The good news is, you only need to do this long command once. If you have pushed this branch before or it already exists on the remote, you can simply type `git push`.
-
 ---
+

@@ -1,4 +1,6 @@
 ---
+title: You Completed the GitHub Flow
+permalink: "/intro-to-github/you-completed-github-flow"
 lang: en
 ref: intro-to-github-12
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: You Completed the GitHub Flow
-permalink: /intro-to-github/you-completed-github-flow
 sidebar:
-  nav: "intro-nav"
-main-content: |
+  nav: intro-nav
+main-content: |2
 
   ## :tada: Congratulations!
 
@@ -43,6 +43,7 @@ main-content: |
   ### Keep learning
 
   The GitHub Training team offers free webinars and full courses every month. Just visit the [GitHub Training](https://services.github.com/training/) site to enroll in our next course.
-show-me-how:
-tell-me-why:
+show-me-how: 
+tell-me-why: 
 ---
+

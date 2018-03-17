@@ -1,4 +1,6 @@
 ---
+title: Create a Branch
+permalink: "/intro-to-github/create-a-branch"
 lang: en
 ref: intro-to-github-05
 layout: simple-class
@@ -6,15 +8,13 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Create a Branch
-permalink: /intro-to-github/create-a-branch
-next-page: /intro-to-github/find-your-coordinates
+next-page: "/intro-to-github/find-your-coordinates"
 sidebar:
-  nav: "intro-nav"
+  nav: intro-nav
 main-content:
   includes:
   - activity/intro-to-github/03-create-branch.md
-show-me-how:
+show-me-how: 
 tell-me-why: |
   ## Creating A Branch
 
@@ -31,5 +31,5 @@ tell-me-why: |
   A single project like ours can have hundreds of branches - all trying out new features or alternate approaches to the same feature.
 
   The trick in managing branches with a team is to keep them concise and short lived. In other words, a single branch should represent a single new feature or bug fix. And, while GitHub doesn't limit the number of branches you can have, it makes things a lot less confusing when you only keep them active for a few days and delete them after they have been merged (we will discuss merging a little later).
-
 ---
+

@@ -1,4 +1,6 @@
 ---
+title: Explora el repositorio de GitHub
+permalink: "/intro-to-github/es/explora-repositorio"
 lang: es
 ref: intro-to-github-03
 layout: simple-class
@@ -6,11 +8,9 @@ help: https://github.com/githubschool/open-enrollment-classes-introduction-to-gi
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Explora el repositorio de GitHub
-permalink: /intro-to-github/es/explora-repositorio
-next-page: /intro-to-github/es/flujo-github
+next-page: "/intro-to-github/es/flujo-github"
 sidebar:
-  nav: "intro-nav-es"
+  nav: intro-nav-es
 main-content: |
   Tómate unos minutos para familiarizarte con la estructura de un repositorio GitHub:
 
@@ -20,8 +20,8 @@ main-content: |
   2. Navega a la pestaña **Code** (código) para encontrar el README del repositorio.
   3. Haz clic en un **Issue** y en un **Pull Request** para ver la diferencia (PISTA: uno contiene cambios en el código, el otro no).
   4. Haz clic en **Insights** y selecciona las opciones **Pulse** o **Graphs** para ver algunas estadísticas del repositorio.
-show-me-how:
-tell-me-why: |
+show-me-how: 
+tell-me-why: |2
 
   ## Explorando un repositorio GitHub
 
@@ -45,5 +45,5 @@ tell-me-why: |
 
   - **CONTRIBUTING.md**: El archivo `CONTRIBUTING.md` se utiliza para describir el proceso para colaborar con el repositorio. El enlace al archivo `CONTRIBUTING.md` se muestra cada vez que alguien empieza a crear un nuevo issue o pull request.
   - **ISSUE_TEMPLATE.md**: El archivo `ISSUE_TEMPLATE.md` es otro archivo especial más que puedes utilizar como plantilla del cuerpo de un issue. Por ejemplo, si siempre quieres recoger cierto tipo de información para los informes de error, puedes incluirlos en este documento y todos los nuevos issues se abrirán conteniendo este texto.
-
 ---
+

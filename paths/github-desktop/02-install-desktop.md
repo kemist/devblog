@@ -1,4 +1,6 @@
 ---
+title: Install GitHub Desktop
+permalink: "/github-desktop/install-github-desktop"
 lang: en
 ref: gh-desktop-02
 layout: simple-class
@@ -6,13 +8,11 @@ help: https://github.com/githubschool/on-demand-github-pages/issues/new?title=I%
 header:
   overlay_image: cover.jpeg
   overlay_filter: rgba(46, 129, 200, 0.6)
-title: Install GitHub Desktop
-permalink: /github-desktop/install-github-desktop
-next-page: /github-desktop/create-remote-repository
+next-page: "/github-desktop/create-remote-repository"
 facilitator: false
 sidebar:
-  nav: "github-desktop-nav"
-main-content: |
+  nav: github-desktop-nav
+main-content: |2
 
   For this class you will use GitHub Desktop to work with your GitHub repository.
 
@@ -22,7 +22,6 @@ main-content: |
   1. Open GitHub Desktop.
   1. Follow the prompts to sign in to your account.
   1. Configure your user information (this only happens the first time you run the application).
-
 tell-me-why: |
   ## Working locally
 
@@ -43,5 +42,5 @@ tell-me-why: |
     - Take snapshots of your project.
     - View your project's history.
     - Sync your repository with GitHub.
-
 ---
+
